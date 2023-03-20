@@ -5,6 +5,8 @@ while True:
   else:
     print("Invalid letter. Please, enter a single alphabetical character.")
 
+word = pineapple  
+  
 if guess is in word:
   print(f"Good guess! {guess} is in the word.")
 else:
