@@ -1,4 +1,4 @@
-while == True:
+while True:
   guess = input("Guess a letter...\n")
   if len(guess) == 1 and guess.isalpha():
     break
