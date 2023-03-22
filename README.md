@@ -15,3 +15,4 @@ Then created a class Hangman. Defining the first __init__ method with the attrib
 
 2 more methods were created within this class namely check_guess and ask_for_input methods. These methods took in the letter guessed by the user and checks if it is in the word to be guessed. If the letter is not in the word to be guessed then a message is printed telling the user they need to try again.
 
+Created another functon which combines the methods in the Hangman class and plays the game. This was done by first creating an instance of the Hangman class and then created a while loop which checks the number of lives left for the user. If sufficient then asks the user for further input. Once all letters are guessed by the user the corresponding messages are printed and marks the end of the Hangman game.
