@@ -16,7 +16,11 @@ class Hangman:
       for x, y in enumerate(self.word):
         if y == guess:
           self.word_guessed[x] = guess
-    self.num_letters -= 1
+      self.num_letters -= 1
+    else:
+        self.num_lives -= 1
+        print(f"Sorry, {guess} is not in the word.")
+        print(f"You have {self.num_lives} left.")
   
   def ask_for_input(self):
     while True:
