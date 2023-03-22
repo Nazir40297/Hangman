@@ -19,9 +19,8 @@ class Hangman:
       self.num_letters -= 1
     else:
         self.num_lives -= 1
-        num_lives = self.num_lives
         print(f"Sorry, {guess} is not in the word.")
-        print(f"You have {num_lives} left.")
+        print(f"You have {num_lives} lives left.")
   
   def ask_for_input(self):
     while True:
